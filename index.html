@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090d">
+  <meta name="description" content="Rose — creative developer and digital designer. A cinematic 3D portfolio.">
+  <title>ROSE — Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Rose home">R<span>.</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <a class="availability" href="#contact"><span class="pulse"></span> AVAILABLE FOR PROJECTS</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div id="scene" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT DIGITAL CREATOR <span class="eyebrow-year">— 2026</span></p>
+        <h1>DESIGNING<br><span class="outline">DIGITAL</span><br>WORLDS<span class="rose-dot">.</span></h1>
+        <p class="hero-description">I turn bold ideas into immersive digital experiences — blending design, motion, and technology.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">EXPLORE WORK <span>↗</span></a>
+          <a class="text-link" href="#about">DISCOVER MY APPROACH <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-side-note">SCROLL TO EXPLORE <span class="scroll-mark"></span></div>
+      <div class="hero-index"><span>01</span> / 04</div>
+      <div class="hero-bottom">
+        <span>CREATIVE DEVELOPMENT</span>
+        <span>3D / MOTION / DIGITAL</span>
+        <span>KARACHI, PK</span>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Services">
+      <div class="marquee-track">
+        <span>CREATIVE DEVELOPMENT <i>✳</i> 3D EXPERIENCES <i>✳</i> MOTION DESIGN <i>✳</i> DIGITAL WORLDS <i>✳</i>&nbsp;</span>
+        <span>CREATIVE DEVELOPMENT <i>✳</i> 3D EXPERIENCES <i>✳</i> MOTION DESIGN <i>✳</i> DIGITAL WORLDS <i>✳</i>&nbsp;</span>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> SELECTED EXPERIMENTS</p><h2>FEATURED <span>WORK.</span></h2></div>
+        <p class="section-aside">A collection of concepts, interfaces<br>and digital playgrounds.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-large">
+          <div class="project-art art-one"><div class="orb orb-one"></div><div class="art-label">01 / SPATIAL STUDY</div><div class="art-word">FORM<br>IN MOTION</div></div>
+          <div class="project-meta"><div><h3>NEBULA / DIGITAL SPACE</h3><p>3D ART DIRECTION · EXPERIMENTAL</p></div><span>↗</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><div class="rings"></div><div class="art-label">02 / INTERFACE STUDY</div><div class="art-word art-word-small">BEYOND<br>THE GRID</div></div>
+          <div class="project-meta"><div><h3>AFTERHOURS / INTERFACE</h3><p>UI DESIGN · MOTION</p></div><span>↗</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-three"><div class="glass-shape"></div><div class="art-label">03 / OBJECT STUDY</div><div class="art-word art-word-small">SOFT<br>MATTER</div></div>
+          <div class="project-meta"><div><h3>OBJECT 003 / 3D STUDY</h3><p>3D · LIGHTING · MATERIALS</p></div><span>↗</span></div>
+        </article>
+      </div>
+      <p class="work-note">PERSONAL CONCEPTS & EXPERIMENTS — MORE COMING SOON.</p>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="about-left"><p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p><h2>NOT JUST<br>PIXELS.<br><span>FEELING.</span></h2></div>
+      <div class="about-right">
+        <p class="about-lead">I’m Rose — a digital creator exploring the space where visual design meets technology.</p>
+        <p class="about-body">I’m drawn to atmosphere, detail, and interactions that make the digital feel tangible. From expressive interfaces to playful 3D experiments, I build with curiosity and intention.</p>
+        <div class="skills"><span>01 — CREATIVE CODING</span><span>02 — 3D & MOTION</span><span>03 — INTERFACE DESIGN</span><span>04 — VISUAL DIRECTION</span></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <p class="eyebrow"><span class="eyebrow-line"></span> HAVE AN IDEA?</p>
+      <h2>LET’S MAKE<br><span>IT REAL.</span></h2>
+      <a class="contact-link" href="mailto:hello@rose.example">HELLO@ROSE.EXAMPLE <span>↗</span></a>
+      <div class="contact-orbit" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark" href="#home">R<span>.</span></a>
+    <span>© 2026 ROSE — MADE WITH CURIOSITY.</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
